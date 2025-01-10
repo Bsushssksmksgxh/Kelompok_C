@@ -1,0 +1,41 @@
+* {
+    font-family: "poppins", "sans-serif";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.icon-nav {
+    position: relative;
+    color: #ffffff8c;
+}
+.icon-nav:hover {
+    color: white;
+}
+
+.circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(249, 32, 32, 0.86);
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    top: 10px;
+    right: 130px;
+}
+
+section {
+    min-height: 90vh;
+}
+
+/* stlye footer */
+footer {
+    position: static;
+    bottom: 0;
+    background-color: #b59f78;
+    color: #ffff;
+}
+
+/*  */
