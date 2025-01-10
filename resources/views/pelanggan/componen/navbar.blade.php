@@ -17,8 +17,7 @@
           </li>
         </ul>
         <form class="d-flex gap-4 align-items-center">
-            <button class="btn btn-secondary" type="button">Login</button>
-            <button class="btn btn-primary" type="button">Register</button>
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Login|Register</button>
             <div class="div-notif">
                 <a href="/transaksi" class="fs-5">
                     <i class="fa-solid icon-nav fa-bag-shopping"></i>
