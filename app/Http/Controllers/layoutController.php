@@ -34,7 +34,7 @@ class layoutController extends Controller
     function checkout()
     {
         return view('pelanggan.page.checkout', [
-            'title' => 'Check Out',
+            'title' => 'checkout',
         ]);
     }
 }

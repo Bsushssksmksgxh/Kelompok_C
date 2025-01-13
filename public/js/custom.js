@@ -40,3 +40,17 @@ $(document).ready(function() {
         }
     });
 });
+
+$(document).ready(function() {
+   $("#diterima").on('input', function () {
+    var total = $("#dibayarkan").val();
+    var diterima = $("#diterima").val();
+    var hasil = diterima - total;
+
+    if (diterima <= total) {
+        $("#dikembalikan").val(0);
+    } else {
+        $("#dikembalikan").val(hasil);
+    }
+   });
+});
