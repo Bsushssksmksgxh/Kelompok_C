@@ -31,4 +31,10 @@ class layoutController extends Controller
             'title' => 'Contact us',
         ]);
     }
+    function checkout()
+    {
+        return view('pelanggan.page.checkout', [
+            'title' => 'Check Out',
+        ]);
+    }
 }

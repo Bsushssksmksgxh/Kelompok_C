@@ -1,6 +1,5 @@
 
-  <!-- Modal -->
-  <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+<div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -9,15 +8,45 @@
         </div>
         <div class="modal-body">
             <div class="mb-3 row">
-            <label for="email" class="col-sm-3 col-form-label">Email</label>
+            <label for="nama" class="col-sm-3 col-form-label">Name <span style="color: red">*</span></label>
             <div class="col-sm-9">
-              <input type="text" readonly class="form-control" id="email" value="" placeholder="Masukan email anda">
+              <input type="text" class="form-control"  name="nama" id="nama" value="" placeholder="Your name" required>
             </div>
           </div>
-          <div class="mb-5 row">
-            <label for="password" class="col-sm-3 col-form-label">Password</label>
+          <div class="mb-3 row">
+            <label for="email" class="col-sm-3 col-form-label">Email <span style="color: red">*</span></label>
             <div class="col-sm-9">
-              <input type="text" class="form-control" id="pesan" placeholder="Masukan Password Anda">
+              <input type="text" class="form-control" name="email" id="email" value="" placeholder="Your email" required>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="password" class="col-sm-3 col-form-label">Password <span style="color: red">*</span></label>
+            <div class="col-sm-9">
+              <input type="password" class="form-control" name="password" id="password" placeholder="Your Password" required>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="alamat" class="col-sm-3 col-form-label">Address 1 <span style="color: red">*</span></label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="alamat" name="alamat" placeholder="Input Address 1" required>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="alamat" class="col-sm-3 col-form-label">Address 2</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" name="alamat" id="alamat" placeholder="Input Address 2">
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="tlp" class="col-sm-3 col-form-label">Phone Number <span style="color: red">*</span></label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" name="tlp" id="tlp" placeholder="Input Phone Number">
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="date" class="col-sm-3 col-form-label">Date of Birth<span style="color: red">*</span></label>
+            <div class="col-sm-9">
+              <input type="date" class="form-control" name="date" id="date" placeholder="Input Phone Number">
             </div>
           </div>
           <button type="button" class="btn btn-success col-sm-12" >Login</button>

@@ -18,3 +18,4 @@ Route::get('/', [layoutController::class, 'index'])->name('Home');
 Route::get('/shop', [layoutController::class, 'shop'])->name('Shop');
 Route::get('/transaksi', [layoutController::class, 'transaksi'])->name('Transaksi');
 Route::get('/contact', [layoutController::class, 'contact'])->name('Contact');
+Route::get('/checkout', [layoutController::class, 'checkout'])->name('checkout');
