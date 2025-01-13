@@ -4,7 +4,7 @@
     <div class="row mt-4">
         <div class="col-md-6">
             <div class="content-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. In earum quae eligendi magnam quia et ipsa labore natus saepe, animi unde sunt soluta qui laboriosam distinctio perferendis praesentium maxime illo!
+                Kami selalu senang mendengar dari Anda! Jika Anda memiliki pertanyaan, saran, atau ingin bekerja sama dengan Tepi Kopi, jangan ragu untuk menghubungi kami. Tim kami siap membantu Anda sebaik mungkin.
             </div>
         </div>
         <div class="col-md-6">
